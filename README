@@ -1,0 +1,21 @@
+Python start-up script
+
+Original source from http://www.n8gray.org/files/pythonstartup.py
+
+Feature
+
+ * Shell like builtin method
+  - cd, pushd, popd
+  - pwd, mkdir, rmdir
+  - ls, ln, cp, mv, rm
+  - which (find python object type)
+ * edit command which open editor to find and edit definition
+ * Tab completion support
+ * History support
+
+Install
+
+ * copy .pythonstartup*.py to your $HOME
+ * add this line in $HOME/.profile file
+  export PYTHONSTARTUP=$HOME/.pythonstartup.py
+
